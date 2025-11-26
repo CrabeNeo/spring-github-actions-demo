@@ -10,8 +10,8 @@ jobs:
   main_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Récupération du code source
+      - name: Message 1
         run: echo "Récupération du code source"
 
-      - name: Vérification terminée
+      - name: Message 2
         run: echo "Vérification terminée"
