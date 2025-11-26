@@ -1,0 +1,17 @@
+name: HORAIRE et MANUEL Run
+
+# Déclencheurs
+on:
+  schedule:
+    - cron: "0 * * * *"   # Toutes les heures pile (UTC)
+  workflow_dispatch:       # Exécution manuelle
+
+jobs:
+  main_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du code source
+        run: echo "Récupération du code source"
+
+      - name: Vérification terminée
+        run: echo "Vérification terminée"
