@@ -1,4 +1,4 @@
-name: HORAIRE et MANUEL Run
+name: simple workflow
 
 # Déclencheurs
 on:
